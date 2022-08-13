@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+.container {
+  /* border: 5px solid black; */
+  padding: 10px;
+  padding-left: 0px;
+  margin-left: 2px;
+}
+
+.edit-card {
+  left: 20px !important;
+}
+
+.select-unselect-icon {
+  font-size: 25px;
+  color: red;
+  /* float: right; */
+  top: 15px;
+  right: 20px;
+  position: absolute;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.sidepanel {
+  border-right: 2px solid red;
+}
+
+.side-panel-btns {
+  margin-left: 10%;
+  font-size: 28px;
+  margin-bottom: 15px;
+  width: 100%;
+
+}
+
+.side-panel-btns button {
+  background-color: transparent;
+  /* border:none ; */
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 95% !important;
+  }
+}
+
+/* Cards CSS */
+@media only screen and (max-width:1000px) {
+  .project-card {
+    width: 100% !important;
+  }
+}
+
+.add-delete-button {
+  font-size: 20px;
+  padding: 8px 25px;
+  margin-right: 10px;
+  color: white !important;
+}
+
+.project-card {
+  position: relative;
+  cursor: grab;
+  border: 1px solid #162adf;
+  padding: 10px;
+  width: 100% !important;
+  height: 94%;
+  background-color: white;
+  box-shadow: 1px 2px 25px grey;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+
+.project-card:hover {
+  background-color: #9ec4fb;
+  font-weight: bold;
+}
+
+.project-card img {
+  width: 100%;
+  height: 290px;
+  border-radius: 10px;
+}
+
+.project-card h1 {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.project-card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.link-project {
+  text-align: center !important;
+  padding-bottom: 15px;
+}
+
+.link-project a {
+  color: #162adf !important;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-project a:hover {
+  text-decoration: underline !important;
+}
+
+/* modal forms */
+.delete-modal-footer {
+  padding-top: 0px;
+  border: none;
+}
+
+.add-form-header h3 {
+  text-align: center !important;
+  width: 100%;
+}
+
+.tilt-review {
+  /* background-color: white !important; */
+  box-shadow: none !important;
+  background: none !important;
+  text-align: left;
+  line-height: 1.25 !important;
+  position: relative;
+  padding: 0px !important;
+  border-radius: 20px !important;
+  margin: 10px 15px !important;
+}
+
+/* Empty Cart CSS */
+.mt-100 {
+  margin-top: 40px;
+
+}
+
+.empty-card {
+  margin-bottom: 30px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  letter-spacing: .5px;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05);
+  box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, .05);
+}
+
+/* .empty-card .empty-card-header {
+  background-color: #fff;
+  border-bottom: none;
+  padding: 24px;
+  border-bottom: 1px solid #f6f7fb;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+} */
+
+.empty-card-header:first-child {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card .card-body {
+  padding: 30px;
+  background-color: transparent;
+}
+
+/* history class */
+.cardsCRUDButtons {
+  position: relative;
+}
+
+.historyClass {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white !important;
+}
+
+.history-data {
+  border: 1px solid white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 5px 10px !important;
+  font-weight: bold;
+
+}
+
+.history-data p {
+  margin-bottom: 0px;
+}
+
+.offcanvas-body {
+  padding: 0px;
+}
+
+.history-time {
+  text-align: right;
+}
+
+.navbar-nav {
+  padding: 0px !important;
+}
+
+.history-data:hover {
+  background-color: white !important;
+  font-weight: bold;
+  color: black !important;
+}

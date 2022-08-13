@@ -15,7 +15,7 @@ function ContextManager(props) {
             name: "Spider Man",
             id: "".concat(Date.now(), "_", Math.floor(Math.random() * 93463)),
             details: [
-                { cardID: "".concat(Date.now(), "_", Math.floor(Math.random() * 74159, "card")), image: "https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-mannowayhome_lob_crd_03.jpg", link: "https://www.youtube.com/embed/JfVOs4VSpmA", title: "Spider-Man: No Way Homw", description: "Superb Graphics!", selected: false },
+                { cardID: "".concat(Date.now(), "_", Math.floor(Math.random() * 74159, "card")), image: "https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-mannowayhome_lob_crd_03.jpg", link: "https://www.youtube.com/embed/JfVOs4VSpmA", title: "Spider-Man: No Way Home", description: "Superb Graphics!", selected: false },
                 { cardID: "".concat(Date.now(), "_", Math.floor(Math.random() * 74159, "card")), image: "https://m.media-amazon.com/images/I/91RuCdS7gPL._SL1500_.jpg", link: "https://www.youtube.com/embed/-tnxzJ0SSOw", title: "Amazing Spider-Man", description: "Enojyed while watching it.", selected: false }
             ]
         }
